@@ -1,0 +1,27 @@
+{
+  "name": "dittobot",
+  "version": "1.0.0",
+  "description": "A Bot for Discord about Pokemon Go",
+  "main": "index.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samylots/ditto-bot"
+  },
+  "author": "Samuel Beaudoin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Samylots/ditto-bot/issues"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "dotenv": "^6.0.0"
+  }
+}
