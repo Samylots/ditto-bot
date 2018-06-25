@@ -6,8 +6,8 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 bot.on('ready', function () {
-    console.log("Je suis connecté !")
-    client.user.setActivity('Pokemon GO', {type: 'WATCHING'});
+    console.log("Je suis connecté !");
+    bot.user.setActivity('Pokemon GO', {type: 'PLAYING'});
 });
 
 bot.login(process.env.DISCORD_TOKEN);
